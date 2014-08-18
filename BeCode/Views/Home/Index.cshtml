@@ -1,0 +1,27 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+
+    string lang = Request["lang"];
+
+    if (lang != null)
+    { 
+        lang.ToString();
+    }
+}
+
+<div class="bHeader">
+    <span>{be<strong>code</strong>}</span>
+</div>
+<div class="bMessage">
+    @if(string.IsNullOrEmpty(lang) || lang.Equals("\"ESP\""))
+    { 
+        <span>desarrollo de aplicaciones a Medida</span>
+    }
+    else
+    {
+        <span>custom application Development</span>
+    }
+</div>
+<div class="bAwesomic">
+    <span><strong>because we are</strong> Awesomic</span>
+</div>

@@ -1,0 +1,80 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    text-align:center;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* styles for validation helpers */
+.field-validation-error {
+    color: #b94a48;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+input.input-validation-error {
+    border: 1px solid #b94a48;
+}
+
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+
+.validation-summary-errors {
+    color: #b94a48;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+/*HEADER*/
+
+.bHeader{
+    
+    font-family:'Courier New';
+    font-size:240px;
+    margin-bottom:100px;
+}
+
+/*BODY*/
+
+.bMessage{
+    margin-bottom:240px;
+}
+
+.bMessage span{
+    font-family:Arial;
+    font-size:30px;
+
+}
+
+.bAwesomic{
+    font-size:40px;
+    font-family:Arial;
+    font-weight:100;
+}
+
+/*FOOTER*/
+
+.bFooter{
+    
+}
+
+.bFoooter span{
+    font-family:'Courier New';
+}
